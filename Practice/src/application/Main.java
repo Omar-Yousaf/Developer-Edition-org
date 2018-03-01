@@ -73,13 +73,7 @@ public class Main extends Application {
 	public void start(Stage primaryStage) throws Exception {
 		try {
 			
-			Text tex=new Text();
-			tex.setFont(Font.font("Verdana", FontPosture.ITALIC, 30));
-			tex.setStrikethrough(true);
-			tex.setStroke(Color.CRIMSON);
-			tex.setX(300);
-			tex.setY(450);
-			tex.setText("No can do! babbby");
+			
 			
 		     
 			Pane pane = new Pane();
