@@ -8,12 +8,14 @@ import javafx.application.Application;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.EventHandler;
+import javafx.fxml.FXMLLoader;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 import javafx.scene.Group;
 import javafx.scene.Node;
+import javafx.scene.Parent;
 import javafx.scene.PerspectiveCamera;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -125,10 +127,10 @@ public class Main extends Application {
 			//list.add(imView);
 			//list.add(box);
 			//list.add(cy);
-			list.add(vbox);
+			//list.add(vbox);
+			Parent root1= FXMLLoader.load(getClass().getResource("sample.fxml"));
 			
-			
-			Scene scene = new Scene(stackPane);
+			Scene scene = new Scene(root1,300,300);
 			//Scene scene = new Scene(gridPane);
 			//PerspectiveCamera camera = new PerspectiveCamera(false); 
 		      //camera.setTranslateX(0); 
