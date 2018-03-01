@@ -114,7 +114,6 @@ public class Main extends Application {
 	        ObservableList list1 = stackPane.getChildren();
 	        list1.addAll(group,pane);
 			
-			
 			Group root = new Group();
 			ObservableList<Node> list=root.getChildren();
 			// EventHandling -- new Group(circle, playButton, stopButton);
