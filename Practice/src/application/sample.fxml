@@ -5,6 +5,12 @@
 
 <BorderPane fx:controller="application.Controller" xmlns:fx="http://javafx.com/fxml/1">
 	<!-- TODO Add Nodes -->
+		<top>
+		
+		<Label text="Header"></Label>
+		<fx:include source="Header.fxml" > </fx:include>
+		
+		</top>
 		<center >
 		<Label text="Hello"></Label>
 		</center>

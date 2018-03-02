@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Button?>
+<HBox style=" -fx-border-color:black; -fx-border-width: 1; -fx-border-style: solid; -fx-background-color: #2f4f4f;" BorderPane.alignment="CENTER" fx:controller="application.HeaderController" xmlns:fx="http://javafx.com/fxml/1">
+	<!-- TODO Add Nodes -->
+	
+	<children>
+		<Button text="1"></Button>
+		<Button text="2"></Button>
+		<Button text="3"></Button>
+		<Button text="4"></Button>
+		<Button text="6"></Button>
+	</children>
+</HBox>
+
